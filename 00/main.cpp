@@ -14,8 +14,16 @@
 // Created by Administrator on 2020/11/25.
 //
 
-#include "sort.h"
-#include "leetcode.h"
+//#include "leetcode/roman_to_int.h"
+//#include "leetcode/longest_common_prefix.h"
+//#include "leetcode/is_valid.h"
+//#include "leetcode/merge_two_lists.h"
+//#include "leetcode/remove_duplicates.h"
+//#include "leetcode/remove_element.h"
+//#include "leetcode/str_str.h"
+//#include "leetcode/search_insert.h"
+//#include "leetcode/count_and_say.h"
+#include "leetcode/max_sub_array.h"
 
 #include <iostream>
 using namespace std;
@@ -29,7 +37,39 @@ int main()
 //        cout << a << endl;
 //    }
 
-    numberToWords(123);
+    //cout << numberToWords(1000000000) << endl;
+//    bool result = isPalindrome(1000000000);
+//    cout << result << endl;
+
+    //罗马数字转int
+    //test_romanToInt();
+
+    //最长公共前缀
+//    test_longestCommonPrefix();
+
+    //有效的括号
+//    test_isValid();
+
+    //合并两个有序链表
+//    test_mergeTwoLists();
+
+    //删除排序数组中的重复项
+//    test_removeDuplicates();
+
+    //移除元素
+//    test_removeElement();
+
+    //实现strStr()
+//    test_strStr();
+
+    //搜索插入位置
+//    test_searchInsert();
+
+    //外观数列
+    //test_countAndStudy();
+
+    //最大子序和
+    test_maxSubArray();
 
     return 0;
 }
